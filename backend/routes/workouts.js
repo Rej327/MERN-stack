@@ -13,7 +13,7 @@ router.get("/:id", (req, res) => {
   res.json({ mssg: "GET a single workouts" });
 });
 
-//POST a new workout
+//POST a new workout //Schema and Model
 router.post("/", async (req, res) => {
   const { title, load, reps } = req.body;
 
