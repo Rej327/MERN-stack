@@ -25,8 +25,8 @@ mongoose
 
   .then(() => {
     //listen for request
-    app.listen(process.env.PORT, () => {
-      console.log("connected to db & listening on port", process.env.PORT);
+    app.listen("https://workout-page.onrender.com/", () => {
+      console.log("connected to db & listening on port");
     });
   })
   .catch((error) => {
